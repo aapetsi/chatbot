@@ -18,6 +18,18 @@ class MessageParser {
     if (lowerCaseMessage.includes('flutter')) {
       this.actionProvider.handleFlutterList()
     }
+
+    if (lowerCaseMessage.includes('react')) {
+      this.actionProvider.handleReactList()
+    }
+
+    if (lowerCaseMessage.includes('information security')) {
+      this.actionProvider.handleInformationSecurityList()
+    }
+
+    if (lowerCaseMessage.includes('algorithms')) {
+      this.actionProvider.handleAlgorithmsList()
+    }
   }
 }
 
