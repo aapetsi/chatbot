@@ -34,6 +34,21 @@ const config = {
         ],
       },
     },
+    {
+      widgetName: 'flutterLinks',
+      widgetFunc: (props) => <LinkList {...props} />,
+      props: {
+        options: [
+          { text: 'Introduction to Flutter', url: 'https://google.com', id: 1 },
+          {
+            text: 'Learn Flutter the hard way',
+            url: 'https://google.com',
+            id: 2,
+          },
+          { text: "You don't know Flutter", url: 'https://google.com', id: 3 },
+        ],
+      },
+    },
   ],
 }
 

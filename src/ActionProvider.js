@@ -14,6 +14,15 @@ class ActionProvider {
     this.updateChatbotState(message)
   }
 
+  handleFlutterList = () => {
+    const message = this.createChatBotMessage(
+      "Great, I've got the following resources for you on Flutter",
+      { widget: 'flutterLinks' }
+    )
+
+    this.updateChatbotState(message)
+  }
+
   greet() {
     const greetingMessage = this.createChatBotMessage('Hi', 'friend')
     this.updateChatbotState(greetingMessage)
