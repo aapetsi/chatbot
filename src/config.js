@@ -49,6 +49,59 @@ const config = {
         ],
       },
     },
+    {
+      widgetName: 'reactLinks',
+      widgetFunc: (props) => <LinkList {...props} />,
+      props: {
+        options: [
+          { text: 'Introduction to React', url: 'https://google.com', id: 1 },
+          {
+            text: 'Learn React the hard way',
+            url: 'https://google.com',
+            id: 2,
+          },
+          { text: "You don't know React", url: 'https://google.com', id: 3 },
+        ],
+      },
+    },
+    {
+      widgetName: 'informationSecurityLinks',
+      widgetFunc: (props) => <LinkList {...props} />,
+      props: {
+        options: [
+          {
+            text: 'Introduction Computer Security',
+            url: 'https://google.com',
+            id: 1,
+          },
+          {
+            text: 'Learn Hacking by doing',
+            url: 'https://google.com',
+            id: 2,
+          },
+          { text: 'Hack the box', url: 'https://google.com', id: 3 },
+        ],
+      },
+    },
+    {
+      widgetName: 'algorithmsLinks',
+      widgetFunc: (props) => <LinkList {...props} />,
+      props: {
+        options: [
+          {
+            text: 'Data structures & algorithms',
+            url: 'https://google.com',
+            id: 1,
+          },
+          {
+            text: '7 Algorithms you must know',
+            url: 'https://google.com',
+            id: 2,
+          },
+          { text: 'Algorithms with python', url: 'https://google.com', id: 3 },
+        ],
+      },
+    },
   ],
 }
 
